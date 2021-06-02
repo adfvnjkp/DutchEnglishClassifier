@@ -1,0 +1,17 @@
+README - Param example:
+
+# Train decision tree and predict with model trained:
+	
+	D:\ProgramRepo\DuEnClassifier>python Entrance.py "train" "dt" "./dataRepo/size_10000.dat" "./serialization/model"
+
+	D:\ProgramRepo\DuEnClassifier> python Entrance.py "predict" "./dataRepo/size_10000.dat" "./serialization/model_dt"
+
+	correctness of prediction: 1.0
+
+# Train ada-boost stumps and predict with model trained:
+
+	D:\ProgramRepo\DuEnClassifier>python Entrance.py "train" "ad" "./dataRepo/size_10000.dat" "./serialization/model"
+
+	D:\ProgramRepo\DuEnClassifier> python Entrance.py "predict" "./dataRepo/size_10000.dat" "./serialization/model_ad"
+	
+	correctness of prediction: 0.9954
